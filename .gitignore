@@ -1,3 +1,13 @@
+output/
+input/
+AdaBins/
+k-diffusion/
+MiDaS/
+pytorch3d-lite/
+src/clip/
+src/taming-transformers/
+stable-diffusion/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
