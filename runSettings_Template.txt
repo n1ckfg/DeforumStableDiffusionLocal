@@ -1,14 +1,14 @@
 {
-    "batch_name":"TaskName",
+    "batch_name":"TaskName2",
     "n_batch": 1,
     "prompts":[
         "a scifi utopian temple, future perfect, award winning digital by bruce pennington art",
         "a techno - spiritual utopian planet, perfect future, award winning art by vincent di fate"
     ],
-    "width":704,
-    "height":704,
+    "width":1024,
+    "height":1024,
     "seed":-1,
-    "seed_behavior":"fixed",
+    "seed_behavior":"iter",
     "sampler":"klms",
     "steps":100,
     "scale":7,
@@ -16,16 +16,18 @@
     "filename_format":"{timestring}_{index}_{prompt}.png",
     "use_init":true,
     "init_image":"",
-    "strength":0.5,
+    "strength":0.7,
     "use_mask":false,
     "use_alpha_as_mask":false,
     "invert_mask":false,
     "mask_file":"",
     "animation_prompts":{
-	"0":"A highly detailed photorealistic Octane rendering of a marching robot made of ceramic and cloth"
+    "0":"A photorealistic 8K V-Ray rendering of a dive through a hellish world of meat with gouts of red flame and crackling lightning flashes and the tentacles of eldritch Lovecraftian beasts reaching up out of a boiling alien soup",
+    "1000":"A photorealistic 8K Octane rendering of a dive through a non-Euclidean world of meat with gouts of green flame and crackling lightning flashes and the tentacles of eldritch Sumerian beasts reaching up out of a bubbling necromantic stew",
+    "2000":"A photorealistic 8K Unreal rendering of a dive through a futuristic world of meat with gouts of blue flame and crackling lightning flashes and the tentacles of eldritch Lovecraftian beasts reaching up out of a boiling cosmic gumbo"
     },
     "animation_mode":"Video Input",
-    "max_frames":30,
+    "max_frames":9999999,
     "diffusion_cadence":"1",
     "border":"wrap",
     "angle":"0:(0)",
@@ -48,10 +50,10 @@
     "padding_mode":"border",
     "sampling_mode":"bicubic",
     "save_depth_maps":false,
-    "video_init_path":"./input/video_in.mp4",
+    "video_init_path":"./input/input.mov",
     "extract_nth_frame":1,
     "interpolate_key_frames":true,
-    "interpolate_x_frames":4,
+    "interpolate_x_frames":200,
     "resume_from_timestring":false,
     "resume_timestring":"20220829210106"
 }
