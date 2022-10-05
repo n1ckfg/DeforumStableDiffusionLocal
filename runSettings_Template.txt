@@ -1,16 +1,16 @@
 {
-    "batch_name":"TaskName2",
+    "batch_name":"TaskName",
     "n_batch": 1,
     "prompts":[
         "a scifi utopian temple, future perfect, award winning digital by bruce pennington art",
         "a techno - spiritual utopian planet, perfect future, award winning art by vincent di fate"
     ],
-    "width":1024,
-    "height":1024,
+    "width":512,
+    "height":512,
     "seed":-1,
     "seed_behavior":"iter",
     "sampler":"klms",
-    "steps":100,
+    "steps":150,
     "scale":7,
     "ddim_eta":0.0,
     "filename_format":"{timestring}_{index}_{prompt}.png",
